@@ -1,0 +1,49 @@
+//                        HttpClient httpclient = new DefaultHttpClient();
+//                        HttpPost httppost = new HttpPost("http://192.168.0.99:5000/");
+//                        String value = list1.toString();
+//                        System.out.print(list1);
+//
+//
+//                        try
+//                        {
+//                            List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(1);
+//                            nameValuePairs.add(new BasicNameValuePair("value",value));
+//
+//                            httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+//
+//                            HttpResponse response = httpclient.execute(httppost);
+////                            System.out.println(response);
+//
+//
+//                        }
+//                        catch(ClientProtocolException e)
+//                        {
+//                            e.printStackTrace();
+//                        }
+//                        catch (IOException e) {
+//							e.printStackTrace();
+//                        }
+                	    //json creation
+//                		System.out.println(list1);
+//                        JSONObject obj = new JSONObject();
+//
+//                        JSONArray det = new JSONArray();
+//
+//                        det.put(list1);
+//
+//                        try {
+//                            obj.put("details", det);
+//                        } catch (JSONException e) {
+//                            e.printStackTrace();
+//                        }
+//                        System.out.println(obj.toString());
+//                        showToast(obj.toString());
+
+// 						try(FileWriter file = new FileWriter("C:\\Users\\Admin\\Desktop\\for testing\\test_rfid\\myJSON.json"))
+//                        {
+//                            file.write(list1.toString());
+//                            file.flush();
+//                        }
+//                        catch (IOException e)  {
+//                            e.printStackTrace();
+//                        }
